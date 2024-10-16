@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact PharmaTech for patient inquiries, medical advice, and support.">
+    <title>Contact Us - PharmaTech</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+        }
+        header {
+            background-color: blue;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: blue;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+        }
+        .contact-form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .contact-form h2 {
+            color: blue;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Plifer</h1>
+        <p>Your Trusted Partner in Healthcare</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about us.html">About Us</a>
+    </nav>
+
+    <main>
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <p>If you are a patient or healthcare provider seeking information, please fill out the form below to help us assist you better. We value your privacy and confidentiality.</p>
+
+            <form action="#" method="post">
+                <table>
+                    <tr>
+                        <th>Field</th>
+                        <th>Information</th>
+                    </tr>
+                    <tr>
+                        <td>Number of Patients</td>
+                        <td><input type="number" name="number_of_patients" required></td>
+                    </tr>
+                    <tr>
+                        <td>Patient Age</td>
+                        <td><input type="number" name="age" required></td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td><textarea name="address" rows="3" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Medical Condition</td>
+                        <td><input type="text" name="condition" required></td>
+                    </tr>
+                    <tr>
+                        <td>Preferred Contact Method</td>
+                        <td>
+                            <input type="radio" name="contact_method" value="Email" required> Email
+                            <input type="radio" name="contact_method" value="Phone"> Phone
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Phone Number</td>
+                        <td><input type="text" name="phone" required></td>
+                    </tr>
+                    <tr>
+                        <td>Email Address</td>
+                        <td><input type="email" name="email" required></td>
+                    </tr>
+                </table>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
